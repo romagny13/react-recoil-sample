@@ -1,14 +1,16 @@
 # React Recoil Sample
 
+## Install
+
 [Getting Started](https://recoiljs.org/fr/docs/introduction/getting-started/)
 
 ```
 npm i recoil
 ```
 
-### Samples
+## Samples
 
-#### with atom
+### atom
 
 Create state
 
@@ -40,7 +42,7 @@ const setTodos = useSetRecoilState(todosState);
 setTodos(oldTodos => [newTodo, ...oldTodos]);
 ```
 
-#### With Selector
+### selector
 
 Create state
 
